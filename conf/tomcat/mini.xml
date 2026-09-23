@@ -6,3 +6,5 @@
 <Context path="/mini" 
 	docBase="/opt/tomcat10/mini_saas"
 	antiResourceLocking="false" privileged="true" />
+
+<Resources cachingAllowed="false" />
