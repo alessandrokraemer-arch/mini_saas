@@ -9,7 +9,7 @@ Statement stmt = null;
 try {
 	//aqui o uso do mysql e é praxe no java
 	Class.forName("com.mysql.cj.jdbc.Driver");
-	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/empresax", "saas", "saas");
+	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/enterprise", "saas", "saas");
 
 	String cpf = (String) request.getParameter("cpf");
 	String id = (String) request.getParameter("id");
