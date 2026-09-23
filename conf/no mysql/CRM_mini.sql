@@ -1,7 +1,7 @@
 -- aqui um banco de dados que em aula exploro como data warehouse...
-create user 'saas'@'0.0.0.0' identified by 'saas';
+create user 'saas'@'localhost' identified by 'saas';
 create database enterprise;
-grant all privileges on enterprise .* to 'saas'@'0.0.0.0';
+grant all privileges on enterprise .* to 'saas'@'localhost';
 flush privileges;
 use enterprise;
 create table funcionario (cpfPK varchar(14) not null primary key, primeiroNome varchar(50) not null, sobrenome varchar(50) not null);
