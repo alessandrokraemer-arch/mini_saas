@@ -15,7 +15,7 @@ try {
 
 	String nomeBusca = request.getParameter("nomeBusca");
 
-	String sqlEquipeAtendimento = "SELECT primeiroNome, nome, ramalPK, telefonePK FROM departamento "+
+	String sqlEquipeAtendimento = "SELECT primeiroNome, nome, ramal, telefone FROM departamento "+
 		     "INNER JOIN equipeatendimento ON departamento.idPK = equipeatendimento.dptoIdFK "+
 		     "INNER JOIN funcionario ON equipeatendimento.cpfPK = funcionario.cpfPK "+
 			 "WHERE primeiroNome LIKE '%"+ nomeBusca +"%' ";
