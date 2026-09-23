@@ -11,7 +11,7 @@ ResultSet rsDepartamento = null;
 try {
 	//aqui o uso do mysql e é praxe no java
 	Class.forName("com.mysql.cj.jdbc.Driver");
-	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/empresax", "saas", "saas");
+	conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/enterprise", "saas", "saas");
 	stmt = conn.createStatement();
 
 	String sqlFuncionario = "SELECT cpfPK, primeiroNome, sobrenome FROM funcionario WHERE cpfPK NOT IN (SELECT cpfPK FROM equipeatendimento)";
