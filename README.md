@@ -1,6 +1,8 @@
 **Title:** Software As A Service Infrastructure a mini version... 
 
-**Date:** 8/2026 Status: Accepted 
+**Date:** 8/2026 
+
+**Status:** Accepted 
 
 **Owner:** Dr. Kraemer, Alessandro [sp.kraemer.alessandro@gmail.com](mailto:sp.kraemer.alessandro@gmail.com) 
 O CV está disponível e com Direito Autoral ali no CNPq e autorizo para estudar. O repositório no CNPq é por via [https://lattes.cnpq.br](https://lattes.cnpq.br/) e ali marque DOUTOR. 
