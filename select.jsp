@@ -62,8 +62,8 @@ try {
 		<tr>
 			<td><p style="color:green"><%=rsEquipeAtendimento.getString("primeiroNome")%></p></td>
 			<td><p><%=rsEquipeAtendimento.getString("nome")%></p></td>
-			<td><p><%=rsEquipeAtendimento.getString("ramalPK")%></p></td>
-			<td><p><%=rsEquipeAtendimento.getString("telefonePK")%></p></td>
+			<td><p><%=rsEquipeAtendimento.getString("ramal")%></p></td>
+			<td><p><%=rsEquipeAtendimento.getString("telefone")%></p></td>
 		</tr>		
 
 	<% } %>
